@@ -26,7 +26,7 @@ body{
 
 .menu-link:hover{
     background-color: #ef6653;
-    color: #009EA7;
+    color: white;
 }
 
 #Blue{
@@ -59,12 +59,12 @@ body{
     color: #f0bd23;
   }
 
-  A:link, A:visited .h6{
+  #footer A:link, #footer A:visited {
     text-decoration: none;
     color: #f0bd23;
   }
 
-  A:active, A:hover {
+  #footer A:active, #footer A:hover {
     color: white;
     background:#F48691;
   }
