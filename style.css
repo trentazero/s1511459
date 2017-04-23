@@ -1,23 +1,83 @@
 /*Setting a gradient for the background and defyning the fonts (type and colour) */
 body{
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  background-color: LemonChiffon;
-  background-image: -webkit-gradient(linear, left top, left bottom,
-  from(#FFFAF0), to(LemonChiffon),color-stop(4, #FFFAF0));
+  background-color: white;
   text-align:center;
   padding: 2 2 em;
-  color:red;
 }
 
+.main-menu{
+  list-style: none;
+    color: #009ea7;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    justify-content: center;
+}
 
-/*images*/
+.menu-link, footer {
+    font-weight: bold;
+    color: #009ea7;
+    display: block;
+    padding: 20px;
+    justify-content: center;
+}
+
+.menu-link:hover{
+    background-color: #ef6653;
+    color: #009EA7;
+}
+
+#Blue{
+  background-color:  #f0bd23;
+  height: 50px;
+
+}
+
+#myLogo{
+  align-items: center;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+
+.footer{
+		position: relative;
+	}
+
+.h6{
+		position: absolute;
+		right: 0;/*distanza tra il margine destro di #posizionato e il padding di #contenitore*/
+		bottom: 0;/*distanza tra il margine inferiore di #posizionato e il padding di #contenitore*/
+	}
+
+  #footer{
+    padding-top: 400;
+    height: 100px;
+    background-color: #009ea7;
+    color: #f0bd23;
+  }
+
+  A:link, A:visited .h6{
+    text-decoration: none;
+    color: #f0bd23;
+  }
+
+  A:active, A:hover {
+    color: white;
+    background:#F48691;
+  }
+
+
+/*images
 img{
   width: 50%;
   height: auto;
   border-radius: 2em;
 }
 
-/*setting a red background and more options*/
+/*setting a red background and more options
 #where{
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -28,7 +88,7 @@ img{
   font-weight: bold;
 }
 
-/*setting the design of the combo box*/
+/*setting the design of the combo box
 #who{
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -39,13 +99,13 @@ img{
     font-weight: bold;
 }
 
-/*setting wrap for cousine options*/
+/*setting wrap for cousine options
 .cuisine {
   white-space: wrap;
   color:white;
 }
 
-/*setting the design of the search button*/
+/*setting the design of the search button
 #searchButtom{
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -57,22 +117,22 @@ img{
 
 }
 
-/*setting the design of the search button: when active*/
+/*setting the design of the search button: when active
 #searchButtom:active {
   position: relative;
 }
 
-/*setting the design of the search button: when the mouse is hover (gradient)*/
+/*setting the design of the search button: when the mouse is hover (gradient)
 #searchButtom:hover {
  background: #F7DAA2;
  color:white;
  top: 4px;
- /*gradient*/
+ /*gradient
  background-image: -webkit-gradient(linear, left top, left bottom,
   from(#C1392B), to(#F7DAA2),color-stop(0.4, #C1392B));
 }
 
-/*setting the design of the google maps place holder: borders radius*/
+/*setting the design of the google maps place holder: borders radius
 #placeHolderMaps{
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -80,7 +140,7 @@ img{
   padding:5px;
 }
 
-/*place holder map with shadow effect*/
+/*place holder map with shadow effect
 #map{
   border: 1px solid #C1392B;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.13);
@@ -88,7 +148,7 @@ img{
   -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.13);
 }
 
-/*results Area with shadow effect*/
+/*results Area with shadow effect
 #resultsArea{
   border: 1px solid #C1392B;
   -moz-border-radius: 10px;
@@ -97,18 +157,9 @@ img{
   -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.13);
 }
 
-/*Footer: mouse hover link/visited/active*/
-A:link, A:visited {
-  text-decoration: none;
-  color:#C1392B;
-}
 
-A:active, A:hover {
-  color: white;
-  background:#C1392B;
-}
 
-/*horizontal bar's design*/
+/*horizontal bar's design
 hr
 {
 color: #C1392B;
@@ -118,24 +169,15 @@ height: 4px;
 margin: 1.2em 33 2.5em;
 }
 
-/*Footer colour*/
-h6{
-    color:#C1392B;
 
-}
 
-/*Footer background*/
-#footer{
-  height: 100px;
-  background-color: LemonChiffon;
-}
 
-/*Responsive*/
+/*Responsive
 * {
     box-sizing: border-box;
 }
 
-/*Responsive on medium screen*/
+/*Responsive on medium screen
 @media screen and (min-width: 320px) and (max-width: 720px){
   img{
     width: 80%;
@@ -143,7 +185,7 @@ h6{
     border-radius: 2em;
   }  }
 
-/*Responsive on Smartphones*/
+/*Responsive on Smartphones
  @media screen and (min-width: 120px) and (max-width: 320px){
    .cuisine{
      width:25%;
