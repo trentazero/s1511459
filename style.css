@@ -125,6 +125,28 @@ body{
   justify-content: left;
   }
 
+  #footer-3{
+    padding-top: 200;
+    height: 200px;
+    background-color: #f0bd23;
+    color: #009EA7;
+   vertical-align: bottom;
+  }
+
+  #footer-3 A:link, #footer-3 A:visited {
+    text-decoration: none;
+    color: WHITE;
+        bottom: -20;
+        float: center;
+        vertical-align: bottom;
+  }
+
+  #footer-3 A:active, #footer-3 A:hover {
+    color: white;
+    background:#F48691;
+        bottom: -20;
+  }
+
   #footer-2{
     padding-top: 500;
     height: 1500px;
